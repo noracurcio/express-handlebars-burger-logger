@@ -1,12 +1,20 @@
+body {
+  background: url("https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3068&q=80") no-repeat center center fixed;
+  background-size: cover;
+  text-decoration: seashell;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: red;
+  background-color: rgb(233, 233, 124);
+  text-decoration: seashell;
   
 }
 
 .label {
   font-weight: bold;
+  text-decoration: seashell;
 }
 
 .create-update-form {
@@ -17,4 +25,7 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  background-color: black;
+  text-decoration: white;
+  font-weight: 200;
 }

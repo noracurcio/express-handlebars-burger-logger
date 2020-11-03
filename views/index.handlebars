@@ -2,17 +2,13 @@
 
 
 <div class="container">
-<img src ="cheese-burger-ingredients-falling-down-floating-white-background-vector-illustration-cheese-burger-ingredients-falling-down-173466261.jpg">
 
-</div>
-
-
-<h1 class="text-center padding">Eat-Da-Burgers!</h1>
+<h1 class="text-center padding text-white ">Eat-Da-Burgers!</h1>
 
 <div class="row">
   <div class="col-6">
 
-    <h2 class="text-center">Burgers to be eaten</h2>
+    <h2 class="text-center text-white">Burgers to be eaten</h2>
 
     <ul>
       {{#each burgers}}
@@ -26,7 +22,7 @@
 
 
   <div class="col-6">
-    <h2 class="text-center">Burgers to Devour</h2>
+    <h2 class="text-center text-white">Burgers to Devour</h2>
     <ul>
       {{#each burgers}}
       {{#if devoured}}
@@ -42,21 +38,21 @@
 <div class="row">
   <div class="col-4"></div>
   <div class="col-4 shadow">
-    <h2 class = "text-center">Add a Burger</h2>
+    <h2 class = "text-center text-white">Add a Burger</h2>
     <form class="create-form">
 
       <div class="form-group text-center">
-        <label for="ca">Burger Name:</label>
+        <label class= "text-white" for="ca">Burger Name:</label>
         <input type="text" id="ca" name="burger_name">
       </div>
 
       <div class="form-group text-center">
-        <label for="devoured">Devoured?</label><br>
-        <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-        <input type="radio" name="devoured" value="0"> Not Devoured
+        <label class="text-white"for="devoured">Is This Burger Devoured?</label><br>
+        <input  type="radio" name="devoured" value="1"class="text-white bg-dark" checked> Devoured!<br>
+        <input  type="radio" name="devoured" value="0" class="text-white bg-dark"> Not Devoured
       </div>
 
-      <div class = "text-center">
+      <div class = "text-center text-white">
 
           <button type="submit">Add Burger</button>
 
